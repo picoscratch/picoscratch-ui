@@ -10,7 +10,7 @@
 		// import * as Dialog from "$lib/components/ui/dialog/index.ts";
     import Switch from "$lib/components/ui/switch/switch.svelte";
     import Checkbox from "$lib/components/ui/checkbox/checkbox.svelte";
-	import "../app.css";
+	import "$lib/app.css";
 	// import { onMount } from "svelte";
 
 	// let isDesktop = true;

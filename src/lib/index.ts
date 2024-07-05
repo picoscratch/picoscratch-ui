@@ -10,7 +10,8 @@ import Checkbox from "$lib/components/ui/checkbox/checkbox.svelte";
 import * as Dialog from "$lib/components/ui/dialog/index.js";
 import * as Drawer from "$lib/components/ui/drawer/index.js";
 import Switch from "$lib/components/ui/switch/switch.svelte";
+import Input from "$lib/components/ui/input/input.svelte";
 
 export {
-	Accordion, Alert, Avatar, Badge, Breadcrumb, Button, Card, Checkbox, Dialog, Drawer, Switch
+	Accordion, Alert, Avatar, Badge, Breadcrumb, Button, Card, Checkbox, Dialog, Drawer, Switch, Input
 }
