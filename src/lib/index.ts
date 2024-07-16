@@ -11,7 +11,10 @@ import * as Dialog from "$lib/components/ui/dialog/index.js";
 import * as Drawer from "$lib/components/ui/drawer/index.js";
 import Switch from "$lib/components/ui/switch/switch.svelte";
 import Input from "$lib/components/ui/input/input.svelte";
+import * as Sheet from "$lib/components/ui/sheet/index.js";
+import Label from "$lib/components/ui/label/label.svelte";
+import * as Form from "$lib/components/ui/form/index.js";
 
 export {
-	Accordion, Alert, Avatar, Badge, Breadcrumb, Button, Card, Checkbox, Dialog, Drawer, Switch, Input
+	Accordion, Alert, Avatar, Badge, Breadcrumb, Button, Card, Checkbox, Dialog, Drawer, Switch, Input, Sheet, Label, Form
 }

@@ -3,6 +3,7 @@
     import * as Alert from "$lib/components/ui/alert/index.ts";
     import * as Breadcrumb from "$lib/components/ui/breadcrumb/index.ts";
     import * as Card from "$lib/components/ui/card/index.ts";
+    import * as Sheet from "$lib/components/ui/sheet/index.ts";
     import {Avatar} from "$lib/components/ui/avatar/index.ts";
     import Badge from "$lib/components/ui/badge/badge.svelte";
     import Button from "$lib/components/ui/button/button.svelte";
@@ -115,3 +116,16 @@
     <Button>OK</Button>
   </Card.Footer>
 </Card.Root>
+
+<Sheet.Root>
+  <Sheet.Trigger>Open</Sheet.Trigger>
+  <Sheet.Content>
+    <Sheet.Header>
+      <Sheet.Title>Are you sure absolutely sure?</Sheet.Title>
+      <Sheet.Description>
+        This action cannot be undone. This will permanently delete your account
+        and remove your data from our servers.
+      </Sheet.Description>
+    </Sheet.Header>
+  </Sheet.Content>
+</Sheet.Root>
